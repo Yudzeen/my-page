@@ -6,5 +6,5 @@ const alert = function(text) {
 
 const updateInfo = function(newInfo) {
     info = JSON.parse(newInfo);
-    console.log("Update info: %O", info);
+    console.log("Update info: " + JSON.stringify(info));
 }
